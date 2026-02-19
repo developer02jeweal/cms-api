@@ -11,6 +11,8 @@ const options = {
     servers: [
       {
         url: "http://localhost:5000",
+        url: "https://cms-api-jn1c.onrender.com",
+        
       },
     ],
     components: {
