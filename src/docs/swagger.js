@@ -8,11 +8,14 @@ const options = {
       version: "1.0.0",
       description: "Internal CMS API Documentation",
     },
-    servers: [
+   servers: [
       {
         url: "http://localhost:5000",
+        description: "Local Development",
+      },
+      {
         url: "https://cms-api-jn1c.onrender.com",
-        
+        description: "Production Server",
       },
     ],
     components: {
